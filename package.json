@@ -11,7 +11,7 @@
   "dependencies": {
     "date-fns-tz": "^1.1.6",
     "express": "^4.17.3",
-    "ioredis": "^4.28.5",
+    "ioredis": "^5.1.0",
     "luxon": "^2.0.2",
     "moment": "^2.29.1"
   }
