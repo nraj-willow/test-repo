@@ -10,5 +10,5 @@ updates:
       - "nraj-willow"
     pull-request-branch-name:
       separator: "-"
-    target-branch: "main"
+    target-branch: "staging"
     open-pull-requests-limit: 5
