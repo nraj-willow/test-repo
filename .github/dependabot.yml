@@ -3,7 +3,7 @@ updates:
 
   # Maintain dependencies for appLogsBigQueryWriter
   - package-ecosystem: "npm"
-    directory: "/appLogsBigQueryWriter"
+    directory: "/"
     schedule:
       interval: "daily"
     reviewers:
