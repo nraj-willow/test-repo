@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "date-fns-tz": "^1.1.6",
-    "express": "^4.17.3",
+    "express": "^4.18.1",
     "ioredis": "^4.28.5",
     "luxon": "^2.0.2",
     "moment": "^2.29.1"
