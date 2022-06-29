@@ -1,0 +1,14 @@
+version: 2
+updates:
+
+  # Maintain dependencies for appLogsBigQueryWriter
+  - package-ecosystem: "npm"
+    directory: "/appLogsBigQueryWriter"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "nraj-willow"
+    pull-request-branch-name:
+      separator: "-"
+    target-branch: "main"
+    open-pull-requests-limit: 5
