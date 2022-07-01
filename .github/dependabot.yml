@@ -1,7 +1,7 @@
 version: 2
 
 registries:
-      bit-components:
+      npm:
         type: npm-registry
         url: https://registry.npmjs.org
         token: ${{secrets.NPM_RC_TOKEN}}
@@ -9,6 +9,8 @@ updates:
 
   # Maintain dependencies for appLogsBigQueryWriter
   - package-ecosystem: "npm"
+    registries: 
+      - 'npm'
     directory: "/"
     schedule:
       interval: "daily"
